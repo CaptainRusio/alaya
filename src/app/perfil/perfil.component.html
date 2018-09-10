@@ -1,0 +1,206 @@
+<app-header></app-header>
+
+
+<section class="clean-block">
+      <hr>
+      <div class="container bootstrap snippet">
+
+        <div class="row">
+          <!-- COLUMNA IZQUIERDA-->
+          <div class="col-sm-3">
+            <div class="text-center">
+              <img alt="" style="width:600px;" title="" class="img-circle img-thumbnail isTooltip" src="https://bootdey.com/img/Content/user-453533-fdadfd.png">
+            </div>
+
+            <br>
+
+            <ul class="list-group">
+              <li class="list-group-item text-muted">Registro <i class="fa fa-dashboard fa-1x"></i></li>
+              <li class="list-group-item text-right"><span class="pull-left"><strong>Ideas</strong></span> 125</li>
+              <li class="list-group-item text-right"><span class="pull-left"><strong>Comentarios</strong></span> 13</li>
+              <li class="list-group-item text-right"><span class="pull-left"><strong>Likes</strong></span> 37</li>
+              <li class="list-group-item text-right"><span class="pull-left"><strong>Dislikes</strong></span> 78</li>
+            </ul>
+          </div>
+          <!-- NAV -->
+          <div class="col-sm-9">
+
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#informacion"><i class="fas fa-info"></i> Informacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#configuracion"><i class="fas fa-cogs"></i> Configuracion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#historial"><i class="fas fa-address-book"></i> Historial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#cuenta"><i class="fas fa-dollar-sign"></i> Cuenta</a>
+              </li>
+            </ul>
+
+            <!-- INFORMATION TAB-->
+            <div class="tab-content">
+              <hr>
+              <div class="tab-pane container active" id="informacion">
+                <div class="table-responsive">
+                  <table class="table table-condensed table-responsive table-user-information">
+                    <tbody>
+                    <tr>
+                      <td>
+                        <strong>
+                          <span class="glyphicon glyphicon-asterisk text-primary"></span>
+                          <i class="fas fa-fingerprint"></i> Identificacion
+                        </strong>
+                      </td>
+                      <td class="text-primary">
+                        Id Usuario
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>
+                          <span class="glyphicon glyphicon-user  text-primary"></span>
+                          <i class="fab fa-amilia"></i> Nombre
+                        </strong>
+                      </td>
+                      <td class="text-primary">
+                        Nombre Usuario
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <strong>
+                          <span class="glyphicon glyphicon-envelope text-primary"></span>
+                          <i class="fas fa-at"></i> Correo Electronico
+                        </strong>
+                      </td>
+                      <td class="text-primary">
+                        Correo Usuario
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>
+                          <span class="glyphicon glyphicon-calendar text-primary"></span>
+                          <i class="far fa-calendar-alt"></i> Creada
+                        </strong>
+                      </td>
+                      <td class="text-primary">
+                        Fecha Creacion
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>
+                          <span class="glyphicon glyphicon-calendar text-primary"></span>
+                          <i class="fas fa-calendar-alt"></i> Modificada
+                        </strong>
+                      </td>
+                      <td class="text-primary">
+                        Ultima Fecha Modificacion
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <!-- CONFIGURATION TAB-->
+              <div class="tab-pane container fade" id="configuracion">
+
+                <form>
+
+                <div class="form-row">
+                  <div class="form-group col-md-5">
+                    <label for="new_name">Nombre</label>
+                    <input type="text" name="new_name" class="form-control" id="new_name" value="Nombre Usuario" required>
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" name="apellido" id="apellido" value="Perez" required>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-10">
+                    <label for="new_email">Correo</label>
+                    <input type="email" name="new_email" class="form-control" id="new_email" value="Correo Usuario" required>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-10">
+                    <label for="new_password">Contraseña</label>
+                    <input type="password" name="new_password" class="form-control" id="new_password" value="Contraseña Usuario" required>
+                    <input type="checkbox">Show Password
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary"><<i class="fas fa-check-double"></i>Actualizar Informacion</button>
+
+                </form>
+
+              </div>
+
+              <!-- HISTORIAL TAB-->
+              <div class="tab-pane container fade" id="historial">
+                Historial
+
+              </div>
+
+              <!-- CUENTA TAB-->
+              <div class="tab-pane container fade" id="cuenta">
+
+                <h6>Datos Bancarios</h6>
+                <div class="table-responsive">
+                  <table class="table table-condensed table-responsive table-user-information">
+                    <tbody>
+                    <tr>
+                      <td>
+                        <strong>
+                          <span class="glyphicon glyphicon-asterisk text-primary"></span>
+                          <i class="fas fa-university"></i> Banco
+                        </strong>
+                      </td>
+                      <td class="text-primary">
+                        Banco
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>
+                          <span class="glyphicon glyphicon-user  text-primary"></span>
+                          <i class="fas fa-hand-holding-usd"></i> Fondos Actuales
+                        </strong>
+                      </td>
+                      <td class="text-primary">
+                        Dinero
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <hr>
+                <h6>Añadir Fondos</h6>
+                <form>
+
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input type="number" min="1" name="fondos_adicionales" class="form-control" id="0" placeholder="Fondos Adicionales" required>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary"><i class="fas fa-check-double"></i> Actualizar Fondos</button>
+
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
